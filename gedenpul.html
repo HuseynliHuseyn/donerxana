@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_section_1">
+            <img class="header_logo"
+                src="https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/restaurant/cover/e7ae12ad-43fa-4363-b763-420244c789e3.jpg"
+                alt="">
+        </div>
+        <div class="header_section_2">
+            <form action="index.html"><button class="header_btn">ANA SEHIFE</button></form>
+            <form action="menu.html"><button class="header_btn">MENU</button></form>
+            <form action="gedenpul.html"><button class="header_btn">XERC</button></form>
+        </div>
+    </header>
+    <main>
+        <div class="geden">
+            <ul class="first_ul">
+                <li>25kg un=32.00 azn</li>
+                <li>3kg xiyar=10.50 azn</li>
+                <li>3kg pomidor=10.00 azn</li>
+                <li class="cox">sogan,limon ve diger levazimatlar=15.00 azn</li>
+                <li>elektrik pulu=70 azn</li>
+                <li>saticilara verilen pul=600 azn</li>
+                <li>toplam=750 azn</li>
+            </ul>
+        </div>
+        <div class="gelen">
+            <ul class="first_ul">
+                <li>100*doner=250 azn</li>
+                <li>diger yemekler=600 azn</li>
+                <li>bexsisler=150 azn</li>
+                <li>gunde 250 azn 1ay=7.500 azn</li>
+            </ul>
+        </div>
+    </main>
+</body>
+
+</html>
+<style>
+    main {
+        display: flex;
+        gap: 100px;
+        justify-content: center;
+        background-color: white;
+        border-radius: 25px;
+        border: 5px solid;
+        padding: 20px 25px;
+    }
+
+    .first_ul>li:hover {
+        width: 310px;
+        font-size: 30px;
+        background-color: orange;
+        color: black;
+        padding: 5px 10px;
+        border-radius: 20px;
+        border: 5px white dashed;
+        text-align: center;
+    }
+
+    .cox {
+        width: 220px;
+    }
+
+    .first_ul>li {
+        font-size: 20px;
+        font-weight: 600;
+        width: 220px;
+        transition: 2s;
+    }
+
+    .first_ul {
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    * {
+        /* color: orange; */
+    }
+
+    .header_btn {
+        padding: 10px 15px;
+        background: none;
+        border-radius: 15px;
+        /* border: 2px solid orange; */
+        cursor: pointer;
+    }
+
+    .header_logo {
+        width: 120px;
+        height: 60px;
+        background-color: black;
+    }
+
+    .header_section_2 {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    body {
+        padding: 30px 30px;
+        /* background-color: black; */
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        background-color: #B0A8B9;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 5px 10px;
+        border-radius: 10px;
+        border: 5px solid;
+    }
+</style>

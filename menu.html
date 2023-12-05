@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="header_section_1">
+            <img class="header_logo"
+                src="https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/restaurant/cover/e7ae12ad-43fa-4363-b763-420244c789e3.jpg"
+                alt="">
+        </div>
+        <div class="header_section_2">
+            <form action="index.html"><button class="header_btn">ANA SEHIFE</button></form>
+            <form action="menu.html"><button class="header_btn">MENU</button></form>
+            <form action="gedenpul.html"><button class="header_btn">XERC</button></form>
+        </div>
+    </header>
+    <main>
+        <ul>
+            <li>toyuq doner 2.00 azn</li>
+            <li>et doner 3.00 azn</li>
+            <li>tantuni(bagirsaq) 3.50 azn</li>
+            <li>toyuq etli saurma 2.50 azn</li>
+            <li>mal etli saurma 3.50 azn</li>
+            <li>lahmacun 3.30 azn</li>
+            <li>qozlu lahmacun 3.40 azn</li>
+            <li>pendirli lahmacun 3.70 azn</li>
+            <li>sucuklu pizza 12.00 azn</li>
+            <li>margaritta pizza 9.00 azn</li>
+            <li>merci(limon ile) 4.00 azn</li>
+        </ul>
+    </main>
+</body>
+
+</html>
+<style>
+    main>ul>li:hover{
+        font-size: 40px;
+        border: 10px dotted white;
+        color: orange;
+        background-color: black;
+        padding: 5px 10px;
+        border-radius: 20px;
+        cursor: grab;
+    }
+    main{
+        display: flex;
+        justify-content: center;
+    }
+    main>ul>li{
+        font-size: 22px;
+        font-weight: 700;
+        text-align: center;
+        transition: 2s;
+    }
+    main>ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 70px;
+    }
+    *{
+        /* color: orange; */
+    }
+    .header_btn{
+        padding: 10px 15px;
+        background: none;
+        border-radius: 15px;
+        /* border: 2px solid orange; */
+        cursor: pointer;
+    }
+    .header_logo{
+        width: 120px;
+        height: 60px;
+        background-color: black;
+    }
+    .header_section_2{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    body{
+        padding: 30px 30px;
+        /* background-color: black; */
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: white;
+        padding: 5px 10px;
+        border-radius: 10px;
+        border: 5px solid;
+    }
+</style>
